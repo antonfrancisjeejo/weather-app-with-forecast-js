@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(12, 134, 193, 1) 31%,
+    rgba(49, 31, 157, 1) 100%
+  );
+  color: white;
+  font-size: 36px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+}
+
+.container__left {
+  flex: 0.3;
+}
+
+.container__right {
+  flex: 1;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+input {
+  outline: none;
+  border: 1px solid rgb(200, 200, 200);
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+#searchButton {
+  background-color: rgb(0, 166, 255);
+  color: white;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px 0;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.container__leftHistory button {
+  display: block;
+  background-color: rgb(198, 198, 198);
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px 0;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.container__right {
+  margin: 0 10px;
+}
+
+.divCont {
+  border: 1px solid black;
+  padding-left: 5px;
+}
+
+.topDiv {
+  display: flex;
+  align-items: center;
+}
+
+.topDiv img {
+  width: 50px;
+}
+
+.topDiv h2 {
+  padding-bottom: 20px;
+}
+
+.divCont h4 {
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.uvi span {
+  background-color: green;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.bottomTitle {
+  padding: 10px 0;
+}
+
+.containerRightBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerRightBottom div {
+  background-color: rgb(24, 62, 114);
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: white;
+  width: 200px;
+}
+
+.containerRightBottom div img {
+  width: 50px;
+}
+
+.containerRightBottom div h4 {
+  padding-bottom: 20px;
+  font-weight: 400;
+}
